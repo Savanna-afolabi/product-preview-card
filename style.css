@@ -108,3 +108,31 @@ button{
     margin-top: 30px;
     margin-left: 20px;
 }
+#perfume-image-mobile{
+    display: none;
+}
+@media (max-width: 950px) {
+   #perfume-image-mobile{
+    display: block;
+    height: 200px;
+} 
+   #perfume-img{
+    display: none;
+   }
+   main{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+   }
+    
+   body{
+    justify-items: center;
+   }
+   #section-2{
+    border-bottom-right-radius: none;  
+    border-bottom-left-radius: 15px;
+   }
+}
