@@ -30,7 +30,7 @@ main{
     /* align-items: center; */
     height: 500px;
     border-radius: 15px;
-    width: 600px;
+    width: 625px;
 }
 #section-1{
     flex: 1;
@@ -38,13 +38,22 @@ main{
 h2, h1{
     font-family: var(--font-family-f);
     margin-top: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 39px;
 }
 p,h4{
     font-family: var(--font-family-m);
     margin-top: 20px; 
-    padding-left: 10px;
+    padding-left: 20px;
+
+}
+#cart{
+    /* border: red solid 1px ; */
+    width: 26px;
+    height: 15px;
+    background-color: var(--Green-500);
+    padding-right: 10px;
+    color: var(--White);
 }
 h1{
     line-height: 37px;
@@ -55,7 +64,7 @@ h1{
 }
 p{
     /* border: blue 1px solid; */
-    padding-left: 10px;
+ 
     padding-right: 10px;
     line-height: 25px;
     color: var(--Grey);
@@ -71,8 +80,10 @@ h4{
     color: var(--Grey);
     font-weight: 500;
     /* line-height: 15px; */
-    letter-spacing: 2.4px;
-    border: red solid 1px;
+    letter-spacing: 2.5px;
+    /* border: red solid 1px; */
+    padding-top: 10px;
+    padding-left: 20px;
 }
 #section-2{
 /* width: 400px; */
