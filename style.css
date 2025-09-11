@@ -111,10 +111,21 @@ button{
 #perfume-image-mobile{
     display: none;
 }
+button:hover{
+    background-color: var(--White);
+    color: var(--Green-700);
+    cursor: pointer;
+}
+#cart:hover{
+    color: var(--Green-700);
+    background-color: var(--White);
+}
 @media (max-width: 950px) {
    #perfume-image-mobile{
     display: block;
     height: 200px;
+    width: 310px;
+    border-radius:1px;
 } 
    #perfume-img{
     display: none;
@@ -124,25 +135,25 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
- 
    }
-    
    body{
     justify-items: center;
    }
    #section-2{
-    border-bottom-right-radius: none;  
+    border-bottom-right-radius: 15px;  
     border-bottom-left-radius: 15px;
-    height: 400px;
+    border-top-right-radius: 1px;
+    height: 500px;
    }
   h1{
     font-size: 33px;
     line-height: 27px;
+    padding-bottom: none;
   }
   button{
     width: 275px;
     align-self: center;
-    height: 35px;
+    height: 55px;
     justify-self: center;
     margin-right: 20px;
 }
