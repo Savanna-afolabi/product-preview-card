@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -45,7 +43,6 @@ p,h4{
     font-family: var(--font-family-m);
     margin-top: 20px; 
     padding-left: 20px;
-
 }
 #cart{
     /* border: red solid 1px ; */
@@ -59,12 +56,8 @@ h1{
     line-height: 37px;
     font-size: 40px;
     padding-right: 10px;
-    padding-bottom: 20px;
-    /* border: red 1px solid; */
-}
+    padding-bottom: 20px;}
 p{
-    /* border: blue 1px solid; */
- 
     padding-right: 10px;
     line-height: 25px;
     color: var(--Grey);
@@ -117,8 +110,9 @@ button:hover{
     cursor: pointer;
 }
 #cart:hover{
-    color: var(--Green-700);
-    background-color: var(--White);
+cursor: pointer;
+background-color: var(--White);
+border: red solid 1px;
 }
 @media (max-width: 950px) {
    #perfume-image-mobile{
@@ -156,5 +150,5 @@ button:hover{
     height: 55px;
     justify-self: center;
     margin-right: 20px;
-}
+  }
 }
