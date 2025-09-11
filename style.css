@@ -112,14 +112,13 @@ button:hover{
 #cart:hover{
 cursor: pointer;
 background-color: var(--White);
-border: red solid 1px;
 }
 @media (max-width: 950px) {
    #perfume-image-mobile{
     display: block;
     height: 200px;
     width: 310px;
-    border-radius:1px;
+    border-radius: 1px;
 } 
    #perfume-img{
     display: none;
