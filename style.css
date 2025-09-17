@@ -36,13 +36,13 @@ main{
 h2, h1{
     font-family: var(--font-family-f);
     margin-top: 20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 39px;
 }
 p,h4{
     font-family: var(--font-family-m);
     margin-top: 20px; 
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 #cart{
     /* border: red solid 1px ; */
@@ -76,7 +76,7 @@ h4{
     letter-spacing: 2.5px;
     /* border: red solid 1px; */
     padding-top: 10px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 #section-2{
 /* width: 400px; */
@@ -84,22 +84,25 @@ background-color: var(--White);
 flex: 1;
 border-bottom-right-radius: 10px;
 border-top-right-radius: 10px;
+ padding: 20px;
 }
-img{
+#section-1 img{
   width: 100%;
   height: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px; 
 }
 button{
+    display: flex;
     background-color: var(--Green-500);
     padding: 15px 90px;
     color: var(--White);
     border-radius: 10px; border: none;
+    width: 100%;
     font-family: var(--font-family-m);
     font-weight: 600;
     margin-top: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 #perfume-image-mobile{
     display: none;
@@ -110,8 +113,10 @@ button:hover{
     cursor: pointer;
 }
 #cart:hover{
-cursor: pointer;
-background-color: var(--White);
+display: none;
+}
+h3{
+  font-weight: 500;
 }
 @media (max-width: 950px) {
    #perfume-image-mobile{
@@ -122,12 +127,24 @@ background-color: var(--White);
 } 
    #perfume-img{
     display: none;
+    padding-bottom: 70px;
+   }
+   h3{
+    /* margin-top: -10px; */
+    border: red solid 1px;
+   
+    letter-spacing: 0.4px;
+   }
+   #button-content{
+    display: flex;
+
    }
    main{
     width: 300px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 610px;
    }
    body{
     justify-items: center;
@@ -144,11 +161,7 @@ background-color: var(--White);
     padding-bottom: none;
   }
   button{
-    width: 275px;
-    align-self: center;
-    height: 55px;
-    justify-self: center;
-    margin-right: 20px;
-    
+     padding: 15px 0;
+     justify-content: center;
   }
 }
