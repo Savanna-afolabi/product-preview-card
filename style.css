@@ -92,7 +92,7 @@ h4 {
 #section-1 img {
   width: 100%;
   height: 100%;
-  border-top-left-radius: 10px;
+  border-top-left-radius: 20px;
   border-bottom-left-radius: 10px;
 }
 button {
@@ -110,6 +110,8 @@ button {
 }
 #perfume-image-mobile {
   display: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 button:hover {
   background-color: var(--White);
@@ -127,12 +129,18 @@ h3 {
     display: block;
     height: 200px;
     width: 310px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    
+  }
+  #section-1 img{
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+   
   }
   #perfume-img {
     display: none;
     padding-bottom: 70px;
+
   }
   h3 {
     /* margin-top: -10px; */
