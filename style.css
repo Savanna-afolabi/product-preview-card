@@ -1,167 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
---Green-500: hsl(158, 36%, 37%);
---Green-700: hsl(158, 42%, 18%);
---Black: hsl(212, 21%, 14%);
---Grey: hsl(228, 12%, 48%);
---Cream: hsl(30, 38%, 92%);
---White: hsl(0, 0%, 100%);
---font-family-m: "Montserrat", sans-serif;
---font-family-f: "Fraunces", serif;
+:root {
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+  --font-family-m: "Montserrat", sans-serif;
+  --font-family-f: "Fraunces", serif;
 }
-body{
-    background-color: var(--Cream);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body {
+  background-color: var(--Cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-main{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    height: 500px;
-    border-radius: 15px;
-    width: 625px;
+main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 500px;
+  border-radius: 15px;
+  width: 625px;
 }
-#section-1{
-    flex: 1;
+#section-1 {
+  flex: 1;
 }
-h2, h1{
-    font-family: var(--font-family-f);
-    margin-top: 20px;
-    /* padding-left: 20px; */
-    font-size: 39px;
+h2,
+h1 {
+  font-family: var(--font-family-f);
+  margin-top: 20px;
+  /* padding-left: 20px; */
+  font-size: 39px;
 }
-p,h4{
-    font-family: var(--font-family-m);
-    margin-top: 20px; 
-    /* padding-left: 20px; */
+p,
+h4 {
+  font-family: var(--font-family-m);
+  margin-top: 20px;
+  /* padding-left: 20px; */
 }
-#cart{
-    /* border: red solid 1px ; */
-    width: 26px;
-    height: 15px;
-    background-color: var(--Green-500);
-    padding-right: 10px;
-    color: var(--White);
+#cart {
+  /* border: red solid 1px ; */
+  width: 26px;
+  height: 15px;
+  background-color: var(--Green-500);
+  padding-right: 10px;
+  color: var(--White);
 }
-h1{
-    line-height: 37px;
-    font-size: 40px;
-    padding-right: 10px;
-    padding-bottom: 20px;}
-p{
-    padding-right: 10px;
-    line-height: 25px;
-    color: var(--Grey);
-    font-size: 17px;
-    font-weight: 400;
-    letter-spacing: 0.2px;
+h1 {
+  line-height: 37px;
+  font-size: 40px;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
-h2{
-    color: var(--Green-500);
-    /* border: red 1px solid; */
+p {
+  padding-right: 10px;
+  line-height: 25px;
+  color: var(--Grey);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
-h4{
-    color: var(--Grey);
-    font-weight: 500;
-    /* line-height: 15px; */
-    letter-spacing: 2.5px;
-    /* border: red solid 1px; */
-    padding-top: 10px;
-    /* padding-left: 20px; */
+h2 {
+  color: var(--Green-500);
+  /* border: red 1px solid; */
 }
-#section-2{
-/* width: 400px; */
-background-color: var(--White);
-flex: 1;
-border-bottom-right-radius: 10px;
-border-top-right-radius: 10px;
- padding: 20px;
+h4 {
+  color: var(--Grey);
+  font-weight: 500;
+  /* line-height: 15px; */
+  letter-spacing: 2.5px;
+  /* border: red solid 1px; */
+  padding-top: 10px;
+  /* padding-left: 20px; */
 }
-#section-1 img{
+#section-2 {
+  /* width: 400px; */
+  background-color: var(--White);
+  flex: 1;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+}
+#section-1 img {
   width: 100%;
   height: 100%;
   border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
 }
-button{
-    display: flex;
-    background-color: var(--Green-500);
-    padding: 15px 90px;
-    color: var(--White);
-    border-radius: 10px; border: none;
-    width: 100%;
-    font-family: var(--font-family-m);
-    font-weight: 600;
-    margin-top: 30px;
-    /* margin-left: 20px; */
+button {
+  display: flex;
+  background-color: var(--Green-500);
+  padding: 15px 90px;
+  color: var(--White);
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-family: var(--font-family-m);
+  font-weight: 600;
+  margin-top: 30px;
+  /* margin-left: 20px; */
 }
-#perfume-image-mobile{
-    display: none;
+#perfume-image-mobile {
+  display: none;
 }
-button:hover{
-    background-color: var(--White);
-    color: var(--Green-700);
-    cursor: pointer;
+button:hover {
+  background-color: var(--White);
+  color: var(--Green-700);
+  cursor: pointer;
 }
-#cart:hover{
-display: none;
+#cart:hover {
+  display: none;
 }
-h3{
+h3 {
   font-weight: 500;
 }
 @media (max-width: 950px) {
-   #perfume-image-mobile{
+  #perfume-image-mobile {
     display: block;
     height: 200px;
     width: 310px;
-    border-radius: 1px;
-} 
-   #perfume-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  #perfume-img {
     display: none;
     padding-bottom: 70px;
-   }
-   h3{
+  }
+  h3 {
     /* margin-top: -10px; */
     border: red solid 1px;
-   
     letter-spacing: 0.4px;
-   }
-   #button-content{
+  }
+  #button-content {
     display: flex;
-
-   }
-   main{
+  }
+  main {
     width: 300px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 610px;
-   }
-   body{
+  }
+  body {
     justify-items: center;
-   }
-   #section-2{
-    border-bottom-right-radius: 15px;  
+  }
+  #section-2 {
+    border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 1px;
     height: 500px;
-   }
-  h1{
+  }
+  h1 {
     font-size: 33px;
     line-height: 27px;
     padding-bottom: none;
   }
-  button{
-     padding: 15px 0;
-     justify-content: center;
+  button {
+    padding: 15px 0;
+    justify-content: center;
   }
 }
