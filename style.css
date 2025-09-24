@@ -25,7 +25,6 @@ body {
 main {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   height: 500px;
   border-radius: 15px;
   width: 625px;
@@ -33,24 +32,22 @@ main {
 #section-1 {
   flex: 1;
 }
-h2,
+
 h1 {
   font-family: var(--font-family-f);
   margin-top: 20px;
-  /* padding-left: 20px; */
   font-size: 39px;
 }
 p,
 h4 {
   font-family: var(--font-family-m);
   margin-top: 20px;
-  /* padding-left: 20px; */
+
 }
 #cart {
-  /* border: red solid 1px ; */
+
   width: 26px;
   height: 15px;
-  background-color: var(--Green-500);
   padding-right: 10px;
   color: var(--White);
 }
@@ -59,6 +56,21 @@ h1 {
   font-size: 40px;
   padding-right: 10px;
   padding-bottom: 20px;
+}
+#price{
+  text-decoration: line-through;
+  font-family: var(--font-family-f);
+  font-weight: 300;
+  color: var(--Grey);
+  font-size: 17px;
+}
+#number{
+display: flex;
+align-items: center;
+gap: 20px;
+
+padding-top: 20px;
+
 }
 p {
   padding-right: 10px;
@@ -70,19 +82,18 @@ p {
 }
 h2 {
   color: var(--Green-500);
-  /* border: red 1px solid; */
+
+  font-size: 39px;
+  font-family: var(--font-family-f);
 }
 h4 {
   color: var(--Grey);
   font-weight: 500;
-  /* line-height: 15px; */
   letter-spacing: 2.5px;
-  /* border: red solid 1px; */
   padding-top: 10px;
-  /* padding-left: 20px; */
 }
 #section-2 {
-  /* width: 400px; */
+  
   background-color: var(--White);
   flex: 1;
   border-bottom-right-radius: 10px;
@@ -106,7 +117,7 @@ button {
   font-family: var(--font-family-m);
   font-weight: 600;
   margin-top: 30px;
-  /* margin-left: 20px; */
+ 
 }
 #perfume-image-mobile {
   display: none;
@@ -114,12 +125,9 @@ button {
   border-top-right-radius: 20px;
 }
 button:hover {
-  background-color: var(--White);
-  color: var(--Green-700);
+  background-color: var(--Green-700);
+  color: var(--White);
   cursor: pointer;
-}
-#cart:hover {
-  display: none;
 }
 h3 {
   font-weight: 500;
@@ -143,23 +151,22 @@ h3 {
 
   }
   h3 {
-    /* margin-top: -10px; */
-    border: red solid 1px;
+ 
     letter-spacing: 0.4px;
   }
   #button-content {
     display: flex;
   }
   main {
-    width: 300px;
+    width: 350px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 610px;
+   margin: 100px 0;
   }
-  body {
-    justify-items: center;
-  }
+
+  
   #section-2 {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
